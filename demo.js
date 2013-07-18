@@ -141,6 +141,7 @@ function TestDivideByZero(){
 function setLocalStorage(){
 	localStorage.setItem('test one', 'first value');
 	sessionStorage.setItem('test session key', '6ab15b7f-1488-4923-97a0-ef3b6e0ffc47');
+	document.cookie = 'cookiekey = deliciouscookie';
 }
 
 function RunAllTests(){
